@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    background: white;
+}
+
+.topo {
+    background-color: #061844;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* IMAGEM */
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* mantém a imagem certinha */
+    border-radius: 5px; /* quadrado levemente arredondado */
+    margin-right: 15px;
+}
+
+/* TEXTO */
+.topo h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.container h2 {
+    text-align: center;
+    color: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 90%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #130430;
+    border-radius: 5px;
+}
+
+.formulario button {
+    margin-top: 25px;
+    width: 80%;
+    padding: 12px;
+    background-color: #08173b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #030b22;
+}         
+.container {
+    background-color: #081c50; /* azul */
+    padding: 20px;
+    border-radius: 15px;       /* bordas redondas */
+    max-width: 420px;
+    margin: 120px auto;
+}
+
+/* FORMULÁRIO BRANCO DENTRO */
+.formulario {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* CARTÃO AZUL */
+.container {
+    background-color: #010611;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 480px;     /* notebook */
+    margin: 100px auto;
+}
+
+/* FORMULÁRIO */
+.formulario {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* CAMPOS */
+.formulario input,
+.formulario button {
+    width: 90%;
+    max-width: 360px;
+    display: block;
+    margin: 6px auto;
+}
+
+/* BASE */
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e9ebec, #090125);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CARTÃO AZUL – PADRÃO (NOTEBOOK) */
+.container {
+    background-color: #020e2b;
+    padding: 30px;
+    border-radius: 18px;
+    max-width: 520px;   /* MAIOR no notebook */
+    margin: 120px auto;
+}
+
+/* FORMULÁRIO */
+.formulario {
+    background: white;
+    padding: 35px;      /* mais espaço no notebook */
+    border-radius: 14px;
+}
+
+/* CAMPOS */
+.formulario input,
+.formulario button {
+    width: 85%;
+    max-width: 420px;   /* inputs mais largos no notebook */
+    display: block;
+    margin: 8px auto;
+}
+
+/* NOTEBOOK (PADRÃO) */
+.container {
+    background-color: #020e2b;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;   /* NOTEBOOK LARGO */
+    margin: 100px auto;
+}
+
+.formulario {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.formulario input,
+.formulario button {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+/* 📱 CELULAR */
+@media (max-width: 600px) {
+
+    .container {
+        max-width: 100%;
+        margin: 40px 15px;
+        padding: 15px;
+    }
+
+    .formulario {
+        padding: 20px;
+    }
+}
