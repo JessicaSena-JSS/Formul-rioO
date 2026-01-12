@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da Salvação</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- <titulos rodape-->
+     <header class="topo">
+    <img src="logo.jpeg" alt="Logo Portal da Salvação" class="logo">
+    <h1>Portal da Salvação</h1>
+</header> 
+<main class="container">
+    <h2>Cadastro para carteirinha de membro</h2>
+
+   <form class="formulario"
+      action="https://formsubmit.co/jessicasenasilva531@gmail.com"
+      method="POST"
+      enctype="multipart/form-data">
+
+    <!-- Configurações -->
+    <input type="hidden" name="_subject" value="Novo cadastro - Portal da Salvação">
+    <input type="hidden" name="_captcha" value="false">
+
+    <label>Nome completo:</label>
+    <input type="text" name="Nome completo" required>
+
+    <label>Data de nascimento:</label>
+    <input type="date" name="Data de nascimento" required>
+
+    <label>CPF:</label>
+    <input type="text" name="CPF">
+
+    <label>RG:</label>
+    <input type="text" name="RG">
+
+    <label>Nome da mãe:</label>
+    <input type="text" name="Nome da mãe">
+
+    <label>Nome do pai:</label>
+    <input type="text" name="Nome do pai">
+
+    <label>Data do batismo (se for batizado):</label>
+    <input type="date" name="Data do batismo">
+
+    <label>Cargo eclesiástico (se for obreiro):</label>
+    <input type="text" name="Cargo eclesiástico">
+
+    <label>Data da consagração (se for obreiro):</label>
+    <input type="date" name="Data da consagração">
+
+    <label>Cidade em que mora:</label>
+    <input type="text" name="Cidade">
+
+    <!-- FOTO / ARQUIVO -->
+    <label>Foto do membro (ou documento):</label>
+    <input 
+        type="file"
+        name="Foto ou arquivo"
+        accept="image/*,.pdf"
+        capture> <!-- LGPD -->
+    <label style="margin: top 10px;px">
+        <input type="checkbox" required>
+        Autorizo o uso dos meus dados exclusivamente para cadastro interno da igreja,
+        conforme a LGPD.
+    </label>
+     <button type="submit">Enviar Cadastro</button>
+</form>
+</body>
+</html>
